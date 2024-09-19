@@ -1,38 +1,43 @@
- body{
-    
-    background-color:lightblue; /* Light blue background */
-    margin: 0;
-    padding: 0;
- }
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
- h1{
-    text-align: center;
- }
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: #f4f4f4;
+}
 
- div{
-    align-items: center;
-    text-align: center;
-    border: 20px solid yellow
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   padding: 40px;
+}
 
- }
- .imagebox{
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    width: 300px
-    
- }
- .sigma{
-    width: 300px;
+.card {
+   background-color: white;
+   width: 300px;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   text-align: center;
+}
 
- }
- .skibidi{
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    width: 300px
- }
+.card img {
+   width: 100%;
+   border-radius: 10px;
+}
 
- .sigma2{
-    width: 300px;
- }
+.card h3 {
+   font-size: 1.5rem;
+   margin: 15px 0 10px;
+}
+
+.card p {
+   font-size: 1rem;
+   color: #666;
+}
