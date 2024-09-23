@@ -7,6 +7,10 @@
 body {
    font-family: 'Roboto', sans-serif;
    background-color: lightblue;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 h1{
@@ -21,6 +25,7 @@ h1{
    align-items: center;
    gap: 20px;
    padding: 40px;
+   width: 80vw
 }
 
 .card {
@@ -28,7 +33,7 @@ h1{
    width: 300px;
    height: 470px;
    padding: 20px;
-   
+
    border-radius: 10px;
    text-align: center;
 }
