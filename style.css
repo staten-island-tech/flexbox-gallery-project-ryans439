@@ -22,7 +22,6 @@ h1{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   align-items: center;
    gap: 20px;
    padding: 40px;
    width: 80vw
@@ -36,6 +35,7 @@ h1{
    border-radius: 10px;
    text-align: center;
    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+   
 }
 
 .card img {
@@ -56,5 +56,6 @@ h1{
 .card:hover {
    transform: scale(1.05);
    box-shadow:0 8px 16px rgba(0, 0, 0, 0.2);
-   background-color: pink
+   background-color: rgb(241, 188, 88);
+   transform: rotate(10deg);
 }
