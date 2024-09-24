@@ -25,7 +25,7 @@ h1{
    align-items: center;
    gap: 20px;
    padding: 40px;
-   width: 80vw
+   width: 120vw
 }
 
 .card {
@@ -33,9 +33,9 @@ h1{
    width: 300px;
    height: 470px;
    padding: 20px;
-
    border-radius: 10px;
    text-align: center;
+   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .card img {
@@ -51,4 +51,10 @@ h1{
 .card p {
    font-size: 1rem;
    color: #666;
+}
+
+.card:hover {
+   transform: scale(1.05);
+   box-shadow:0 8px 16px rgba(0, 0, 0, 0,2);
+   background-color: yellow
 }
