@@ -29,12 +29,13 @@ h1{
 
 .card {
    background-color: white;
-   width: 300px;
+   width: 20%;
    height: 470px;
    padding: 20px;
    border-radius: 10px;
    text-align: center;
    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+   font-size: 10px;
    
 }
 
@@ -58,4 +59,37 @@ h1{
    box-shadow:0 8px 16px rgba(0, 0, 0, 0.2);
    background-color: rgb(241, 188, 88);
    transform: rotate(10deg);
+}
+
+@media screen and (max-width: 2000px){
+   .card {
+      background-color: white;
+      width: 20%;
+      height: 470px;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+      font-size: 10px;
+}
+}
+
+@media screen and (max-width: 2000px){
+   .card img {
+      width: 100%;
+      border-radius: 10px;
+   }
+}
+
+@media screen and (max-width: 2000px){
+   .card h3 {
+      font-size: 1.5rem;
+      margin: 15px 0 10px;
+   }
+}
+@media screen and (max-width: 2000px){
+   .card p {
+      font-size: 1rem;
+      color: #666;
+   }
 }
