@@ -59,3 +59,23 @@ h1{
    background-color: rgb(241, 188, 88);
    transform: rotate(10deg);
 }
+
+@media (max-width: 992px) {
+   .gallery {
+     grid-template-columns: repeat(2, 1fr);
+   }
+ }
+ 
+ /* For screens smaller than 768px (mobile devices in landscape mode) */
+ @media (max-width: 768px) {
+   .gallery {
+     grid-template-columns: repeat(2, 1fr);
+   }
+ }
+ 
+ /* For screens smaller than 576px (mobile devices in portrait mode) */
+ @media (max-width: 576px) {
+   .gallery {
+     grid-template-columns: 1fr;
+   }
+ }
